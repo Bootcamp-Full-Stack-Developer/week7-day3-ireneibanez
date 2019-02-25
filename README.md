@@ -37,4 +37,4 @@ Realiza los ajustes necesarios para que al hacer click en el botón borrar de un
 Al final, la funcionalidad esperada es la siguiente: 
 
 
-![](sample.gif)
+![](https://imgur.com/a/GHQFrWk)
