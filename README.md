@@ -3,7 +3,7 @@
 Primer ejercicio con angular y su entorno. A continuación hay una pequeña chuleta de los comandos disponibles en angular cli: 
 
     -   ng new myApp: Crea un nuevo proyecto myApp.
-    -   ng server: Ejecuta un servidor con nuestro proyecto, si es lanzado en la carpeta raiz de un proyecto.
+    -   ng serve: Ejecuta un servidor con nuestro proyecto, si es lanzado en la carpeta raiz de un proyecto.
     -   ng generate: Nos ayuda a generar diversos tipos de contenido para nuestra app como componentes, rutas...
 
 Deberemos crear una to-do-list componetizada. Tendremos un componente padre que sera la lista y un componente hijo que sera cada uno de los items de dicha lista.
@@ -11,9 +11,9 @@ Deberemos crear una to-do-list componetizada. Tendremos un componente padre que 
 ## Antes de empezar...
 Utiliza angular Cli para crear un nuevo proyecto. Puedes utilizar el comando ng new.
 
-##Iteración 1
+## Iteración 1
 
-Genera un componente List en la carpeta Components y renderizalo en el interior del componente app. 
+Genera un componente List en la carpeta shared y renderizalo en el interior del componente app. 
 Este componente debe tener en su template un div que englobe un tag ul. 
 Dentro de sus datos debe tener un atributo tasks que es un Array de strings.
 
